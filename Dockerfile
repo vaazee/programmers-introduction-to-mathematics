@@ -19,6 +19,9 @@ WORKDIR "/pimbook"
 
 
 RUN pip3 install scipy
+RUN pip3 install numpy
+RUN pip3 install igraph
+RUN pip3 install matplotlib
 RUN pip3 install -r requirements.txt
 
 RUN pip install --no-cache-dir --force-reinstall PyYAML
